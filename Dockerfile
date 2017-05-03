@@ -4,7 +4,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 ## install apps
 RUN \
   apt-get update && \
-  apt-get install -y vim wget git apt-transport-https software-properties-common python-software-properties git supervisor
+  apt-get install -y vim iputils-ping wget apt-transport-https software-properties-common python-software-properties git supervisor
 
 ## install nodejs and npm
 RUN \
